@@ -2,4 +2,4 @@
 
 ## A Project
 
-Simple
+Simple description
