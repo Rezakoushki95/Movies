@@ -13,6 +13,7 @@
 		F505459027FF0AC20064E189 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F505458E27FF0AC20064E189 /* Main.storyboard */; };
 		F505459227FF0AC50064E189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F505459127FF0AC50064E189 /* Assets.xcassets */; };
 		F505459527FF0AC50064E189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F505459327FF0AC50064E189 /* LaunchScreen.storyboard */; };
+		F5D9D5D2280452D000D5A228 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D9D5D1280452D000D5A228 /* MovieTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F505459127FF0AC50064E189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F505459427FF0AC50064E189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F505459627FF0AC50064E189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5D9D5D1280452D000D5A228 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		F505458727FF0AC20064E189 /* Movies */ = {
 			isa = PBXGroup;
 			children = (
+				F5D9D5D02804529B00D5A228 /* Views */,
 				F505458827FF0AC20064E189 /* AppDelegate.swift */,
 				F505458A27FF0AC20064E189 /* SceneDelegate.swift */,
 				F505458C27FF0AC20064E189 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				F505459627FF0AC50064E189 /* Info.plist */,
 			);
 			path = Movies;
+			sourceTree = "<group>";
+		};
+		F5D9D5D02804529B00D5A228 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F5D9D5D1280452D000D5A228 /* MovieTableViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				F505458D27FF0AC20064E189 /* ViewController.swift in Sources */,
 				F505458927FF0AC20064E189 /* AppDelegate.swift in Sources */,
+				F5D9D5D2280452D000D5A228 /* MovieTableViewCell.swift in Sources */,
 				F505458B27FF0AC20064E189 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
