@@ -7,25 +7,18 @@
 
 import UIKit
 
-struct Movie {
-	var movieImage: UIImage?
-	var movieTitle: String
-	var movieDescription: String
-}
-
 class ViewController: UIViewController {
 
 	@IBOutlet weak var tableView: UITableView!
 	
-	let movies = [
-		Movie(movieImage: nil, movieTitle: "SpiderMan", movieDescription: "The third movie"),
-		Movie(movieImage: nil, movieTitle: "BatMan", movieDescription: "The Remake")]
+	var movies = [Movie]()
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		tableView.dataSource = self
 		tableView.delegate = self
 		
+		// Making tableview height dynamic
 		tableView.estimatedRowHeight = CGFloat(140)
 		tableView.rowHeight = UITableView.automaticDimension
 	}
